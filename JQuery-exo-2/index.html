@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Exercice 1</title>
+
+  <!-- Bootstrap setting -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+
+<body>
+
+  <form id="studentNote">
+    <h1><strong><u>Formulaire</u></strong></h1>
+    <p>&#8227 Veuillez entrer vos <u>5 dernières notes.</u></p>
+    <div>
+      <label for="name">&#9702 Français : </label>
+      <input type="text" id="french" name="user_name">
+    </div>
+    <div>
+      <label for="name">&#9702 Math : </label>
+      <input type="text" id="math" name="user_name">
+    </div>
+    <div>
+      <label for="name">&#9702 Histoire : </label>
+      <input type="text" id="hist" name="user_name">
+    </div>
+    <div>
+      <label for="name">&#9702 Géo : </label>
+      <input type="text" id="geo" name="user_name">
+    </div>
+    <div>
+      <label for="name">&#9702 Science : </label>
+      <input type="text" id="science" name="user_name">
+    </div>
+    <div class="button">
+      <button type="submit">Envoyer</button>
+    </div>
+    <div id="result">Votre moyenne est de : <span id="average"><br>
+      </span> et voici votre appréciation : <span id="appreciation"></span></div>
+  </form>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.0.js" </script> <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  <!-- JSmaiSON -->
+  <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
